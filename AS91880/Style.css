@@ -1,0 +1,23 @@
+﻿body {
+    margin: auto;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*-- Grid area setup --*/
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:"" ;
+    
+    grid-gap: 10px;
+}
+
+/*-- Box --*/
+.box {
+    border: solid 3px #736456;
+    padding: 30px;
+    margin: 5px;
+    background-color: lightgrey;
+    border-radius: 8px;
